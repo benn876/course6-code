@@ -33,4 +33,9 @@ public class Clock {
     public String getTime() {
         return this.hour + ":" + this.minutes;
     }
+
+    @Override
+    public String toString() {
+        return "Clock object has hour: %s and minutes: %s".formatted(this.hour, this.minutes);
+    }
 }

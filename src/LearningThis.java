@@ -8,5 +8,7 @@ public class LearningThis {
 
         //gdfg654
         frontDoor.setStatus(true);
+
+        System.out.println(frontDoor);
     }
 }

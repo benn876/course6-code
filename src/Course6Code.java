@@ -27,5 +27,6 @@ public class Course6Code {
         finalClock.setMinutes(localDateTime.getMinute());
 
         System.out.println(finalClock.getTime());
+        System.out.println(finalClock);
     }
 }
